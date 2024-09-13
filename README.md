@@ -61,8 +61,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
-![Screenshot from 2023-05-13 14-17-58](https://github.com/RICHARDKALVIN/Echoserver/assets/119404920/13d5bd03-953d-4642-bb43-cb5b5eeb5185)
-![image](https://github.com/RICHARDKALVIN/Echoserver/assets/119404920/a635871c-33c2-4574-8395-136d8825d51e)
+![Screenshot (17)](https://github.com/user-attachments/assets/3675d29c-44fc-4446-b77b-5cb47370ff11)
+
 
 ## RESULT:
 The program is executed successfully
