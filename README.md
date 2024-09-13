@@ -23,6 +23,7 @@ Testing the server and client
 ```
 SERVER.py:
 
+
 import socket
 
 
@@ -45,7 +46,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
  
  CLIENT.py
  
- import socket
+import socket
 
 
 HOST = "127.0.0.1"  # The server's hostname or IP address
@@ -54,7 +55,7 @@ PORT = 65432  # The port used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
-    s.sendall(b"Hello, world")
+    s.sendall(b"Dharani dharan 212223040036")
     data = s.recv(1024)
 
 
